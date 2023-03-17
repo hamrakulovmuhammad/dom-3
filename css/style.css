@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    margin: 0 auto;
+    width: 1240px;
+    height: 697px;
+    background-image: url(../img/black.png);
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s ease;
+}
+
+.post {
+    margin-bottom: 55px;
+    margin-top: 50px;
+    font-family: 'Gilroy';
+    display: flex;
+    gap: 117px;
+    align-items: center;
+    justify-content: center;
+}
+
+.post h5 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #707070;
+    margin-bottom: 12px;
+}
+
+.post h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+    color: #000000;
+}
+
+.post_two {
+    display: flex;
+    gap: 70px;
+    font-family: 'Gilroy';
+    align-items: center;
+    justify-content: center;
+}
+
+.post_two h6 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+    margin-bottom: 8px;
+}
+
+.circle {
+    display: flex;
+    gap: 10px;
+}
+
+.black {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: black;
+}
+
+.white {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: whitesmoke;
+}
+
+.wheat {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: wheat;
+}
+
+.bil {
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    background: rgb(197, 197, 197);
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.lol {
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.5s ease;
+}
+
+.animation {
+    cursor: pointer;
+    width: 50px;
+    height: 25px;
+    background: rgb(1, 177, 1);
+    border-radius: 15px;
+    transition: 0.5s ease;
+}
+
+.active {
+    transition: 0.5s ease;
+    margin-left: 25px;
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+}
